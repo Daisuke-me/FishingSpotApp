@@ -14,6 +14,8 @@
 		7E999812255FE2CB0057E070 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E999811255FE2CB0057E070 /* Persistence.swift */; };
 		7E999815255FE2CB0057E070 /* FishingSpotApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E999813255FE2CB0057E070 /* FishingSpotApp.xcdatamodeld */; };
 		7E999822255FE8F00057E070 /* HomeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E999821255FE8F00057E070 /* HomeMap.swift */; };
+		7E99982D256171290057E070 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E99982C256171290057E070 /* Home.swift */; };
+		7E999831256172230057E070 /* FishingSpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E999830256172230057E070 /* FishingSpotList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7E999814255FE2CB0057E070 /* FishingSpotApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishingSpotApp.xcdatamodel; sourceTree = "<group>"; };
 		7E999816255FE2CB0057E070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E999821255FE8F00057E070 /* HomeMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMap.swift; sourceTree = "<group>"; };
+		7E99982C256171290057E070 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		7E999830256172230057E070 /* FishingSpotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingSpotList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		7E9997FC255FE2C80057E070 = {
 			isa = PBXGroup;
 			children = (
+				7E999824256084760057E070 /* Extension */,
 				7E999807255FE2C80057E070 /* FishingSpotApp */,
 				7E999806255FE2C80057E070 /* Products */,
 			);
@@ -58,11 +63,14 @@
 		7E999807255FE2C80057E070 /* FishingSpotApp */ = {
 			isa = PBXGroup;
 			children = (
+				7E99982B256170FF0057E070 /* ViewModel */,
+				7E99982A256170D50057E070 /* View */,
 				7E999808255FE2C80057E070 /* FishingSpotAppApp.swift */,
 				7E99980A255FE2C80057E070 /* ContentView.swift */,
 				7E99980C255FE2CB0057E070 /* Assets.xcassets */,
 				7E999811255FE2CB0057E070 /* Persistence.swift */,
 				7E999816255FE2CB0057E070 /* Info.plist */,
+				7E999830256172230057E070 /* FishingSpotList.swift */,
 				7E999813255FE2CB0057E070 /* FishingSpotApp.xcdatamodeld */,
 				7E99980E255FE2CB0057E070 /* Preview Content */,
 				7E999821255FE8F00057E070 /* HomeMap.swift */,
@@ -76,6 +84,28 @@
 				7E99980F255FE2CB0057E070 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E999824256084760057E070 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7E99982A256170D50057E070 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E99982C256171290057E070 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E99982B256170FF0057E070 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +181,8 @@
 				7E99980B255FE2C80057E070 /* ContentView.swift in Sources */,
 				7E999815255FE2CB0057E070 /* FishingSpotApp.xcdatamodeld in Sources */,
 				7E999809255FE2C80057E070 /* FishingSpotAppApp.swift in Sources */,
+				7E999831256172230057E070 /* FishingSpotList.swift in Sources */,
+				7E99982D256171290057E070 /* Home.swift in Sources */,
 				7E999822255FE8F00057E070 /* HomeMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
